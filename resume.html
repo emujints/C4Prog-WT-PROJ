@@ -2,9 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="./src/input.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/674d161467.js" crossorigin="anonymous"></script>
 
+
+</head>
+<body class="bg-[#eecc8c] text-gray-900">
+<header class="bg-[#a36361] text-white py-4 text-center">
+    <h1 class="text-4xl font-bold">My Resume</h1>
+    <div class="container mx-auto flex justify-between items-center px-6">
+        <ul class="flex space-x-6">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li><a href="resume.html" class="hover:underline">Resume</a></li>
+            <li><a href="projects.html" class="hover:underline">Projects</a></li>
+            <li><a href="contact.html" class="hover:underline">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="container mx-auto px-6 py-10">
+    <section class="mb-10">
+        <h2 class="text-3xl font-bold text-[#a36361] mb-4">Profile</h2>
+        <div class="flex flex-col lg:flex-row items-center lg:items-start">
+            <img src="./assets/img/portfolio.jpg" alt="Profile Picture" class="w-40 h-40 rounded-full mb-6 lg:mb-0 lg:mr-8">
+            <p class="text-lg text-[#555] mt-25">
+                I am a passionate developer with expertise in front-end and back-end technologies.
+                With a strong background in web design and coding, I aim to deliver visually appealing and functional user experiences.
+            </p>
+        </div>
+    </section>
+
+    <section class="mb-10">
+        <h2 class="text-3xl font-bold text-[#a36361] mb-4">Education</h2>
+        <div>
+            <div>
+                <h3 class="text-2xl font-semibold">Certificate 4 in Programming</h3>
+                <p class="text-sm text-[#555]">North Metro, TAFE</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-10">
+        <h2 class="text-3xl font-bold text-[#a36361] mb-4">Experience</h2>
+        <div>
+            <div class="mb-6">
+                <h3 class="text-2xl font-semibold">Web Developer</h3>
+                <p class="text-sm text-[#555]">lorem</p>
+                <p class="text-[#555]">
+                    Designed and developed user-friendly websites and applications, collaborating with clients and cross-functional teams.
+                </p>
+            </div>
+            <div>
+                <h3 class="text-2xl font-semibold">Intern</h3>
+                <p class="text-sm text-[#555]">Company Name | Year</p>
+                <p class="text-[#555]">
+                    Assisted in building responsive web designs and debugging existing codebases for multiple client projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="text-3xl font-bold text-[#a36361] mb-4">Skills</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div>
+                <h4 class="text-xl font-semibold">Frontend</h4>
+                <ul class="list-disc pl-6 text-[#555]">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Angular</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-xl font-semibold">Backend</h4>
+                <ul class="list-disc pl-6 text-[#555]">
+                    <li>Node.js, Express</li>
+                    <li>Database Management (SQL, MongoDB)</li>
+                    <li>API Integration</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
 </body>
+<footer class="bg-[#a36361] text-white py-6 text-center w-full">
+    <p>© 2024 Emujin's Portfolio | Built with ❤️</p>
+    <div class="flex justify-center gap-4 mt-4">
+        <a href="https://www.linkedin.com" target="_blank" class="hover:text-[#a36361] transition">
+            <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://github.com" target="_blank" class="hover:text-[#a36361] transition">
+            <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="hover:text-[#a36361] transition">
+            <i class="fab fa-twitter fa-lg"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="hover:text-[#a36361] transition">
+            <i class="fab fa-instagram fa-lg"></i>
+        </a>
+    </div>
+</footer>
 </html>

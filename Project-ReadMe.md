@@ -1,5 +1,7 @@
 # C4Prog-WT-PROJ
 
+## Color palette
+
 | Name   | RGB           | HEX    |
 |--------|---------------|--------|
 | black  | 0, 0, 0       | #000000 |

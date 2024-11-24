@@ -2,9 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Project</title>
+    <link rel="stylesheet" href="./src/input.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body>
+<body class="bg-gray-50">
+
+<nav class="flex justify-between items-center py-4 bg-[#a36361] text-white">
+    <ul class="flex space-x-6">
+        <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+        <li><a href="resume.html" class="hover:text-gray-300">Resume</a></li>
+        <li><a href="projects.html" class="hover:text-gray-300">Projects</a></li>
+        <li><a href="mywork.html" class="hover:text-gray-300">Sample Project</a></li>
+    </ul>
+</nav>
+
+<section class="max-w-6xl mx-auto px-6 py-12">
+    <h2 class="text-3xl font-semibold text-[#a36361] text-center">Sample Project: Project Name</h2>
+
+    <div class="mt-8">
+        <h3 class="text-2xl font-semibold text-[#a36361]">Overview</h3>
+        <p class="text-lg text-[#555] mt-2">Detailed description of the project, what it does, and its purpose.</p>
+    </div>
+
+    <div class="mt-8">
+        <h3 class="text-2xl font-semibold text-[#a36361]">Technology Stack</h3>
+        <ul class="list-none mt-4">
+            <li class="text-lg font-semibold">HTML</li>
+            <li class="text-lg font-semibold">CSS</li>
+            <li class="text-lg font-semibold">JavaScript</li>
+            <li class="text-lg font-semibold">React</li>
+            <li class="text-lg font-semibold">Node.js</li>
+        </ul>
+    </div>
+
+    <div class="mt-8">
+        <h3 class="text-2xl font-semibold text-[#a36361]">Features</h3>
+        <ul class="list-disc list-inside mt-4">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            <!-- Add more features -->
+        </ul>
+    </div>
+
+    <div class="mt-8">
+        <h3 class="text-2xl font-semibold text-[#a36361]">Demo/Images</h3>
+        <img class="w-full mt-4" src="" alt="Sample Project Image">
+    </div>
+</section>
 
 </body>
 </html>
