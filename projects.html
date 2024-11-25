@@ -4,38 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
-    <link rel="stylesheet" href="./assets/css/site.css">
+    <link rel="stylesheet" href="./src/input.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/674d161467.js" crossorigin="anonymous"></script>
+
 </head>
+<body class="bg-[#eecc8c] text-gray-900">
 
-<body class="bg-gray-50">
-<nav class="flex justify-between items-center py-4 bg-[#a36361] text-white">
-    <ul class="flex space-x-6">
-        <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
-        <li><a href="resume.html" class="hover:text-gray-300">Resume</a></li>
-        <li><a href="projects.html" class="hover:text-gray-300">Projects</a></li>
-        <li><a href="mywork.html" class="hover:text-gray-300">Sample Project</a></li>
-    </ul>
-</nav>
-
-<section class="max-w-6xl mx-auto px-6 py-12">
-    <h2 class="text-3xl font-semibold text-[#a36361] text-center">My Projects</h2>
-
-    <!-- Project 1 -->
-    <div class="mt-8">
-        <h3 class="text-2xl font-semibold text-[#a36361]">Project 1: Project Name</h3>
-        <p class="text-lg text-[#555] mt-2">Short description about the project. What technologies were used and its main features.</p>
-        <a href="#" class="text-[#a36361] font-semibold mt-4 inline-block">View Project</a>
+<header class="bg-[#9eaba2] text-white sticky top-0 shadow-md w-full">
+    <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
+        <h1 class="text-2xl font-bold hidden md:block">Emujin's Portfolio</h1>
+        <nav class="w-full">
+            <ul class="flex flex-wrap justify-around gap-2">
+                <li><a href="index.html" class="hover:text-[#a36361] transition">Home</a></li>
+                <li><a href="about.html" class="hover:text-[#a36361] transition">About</a></li>
+                <li><a href="resume.html" class="hover:text-[#a36361] transition">Resume</a></li>
+                <li><a href="projects.html" class="hover:text-[#a36361] transition">Projects</a></li>
+                <li><a href="mywork.html" class="hover:text-[#a36361] transition">My work</a></li>
+                <li><a href="contact.html" class="hover:text-[#a36361] transition">Contact</a></li>
+            </ul>
+        </nav>
     </div>
+</header>
 
-    <!-- Project 2 -->
-    <div class="mt-8">
-        <h3 class="text-2xl font-semibold text-[#a36361]">Project 2: Project Name</h3>
-        <p class="text-lg text-[#555] mt-2">Short description about the project. What technologies were used and its main features.</p>
-        <a href="#" class="text-[#a36361] font-semibold mt-4 inline-block">View Project</a>
+<main class="container mx-auto px-6 py-10">
+    <h1 class="text-4xl font-bold text-[#a36361] mb-8">Projects</h1>
+
+    <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="./assets/img/air_quality.jpg" alt="Project 1" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-[#a36361] mb-4">Air Quality Checker</h2>
+                <p class="text-gray-700 mb-4">Check the air quality in your city.</p>
+                <a href="mywork.html" class="text-white bg-[#a36361] px-4 py-2 rounded hover:bg-[#8a4f4e]">More</a>
+            </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="./assets/img/mobile.jpg" alt="Project 2" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-[#a36361] mb-4">Mobile App</h2>
+                <p class="text-gray-700 mb-4">Brief description of the project.</p>
+                <a href="https://github.com/emujints/Assessment" class="text-white bg-[#a36361] px-4 py-2 rounded hover:bg-[#8a4f4e]">View Details</a>
+            </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="./assets/img/carpark.jpg" alt="Project 3" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-[#a36361] mb-4">Car Park project</h2>
+                <p class="text-gray-700 mb-4">Brief description of the project.</p>
+                <a href="https://github.com/emujints/ipriot-carpark_project" class="text-white bg-[#a36361] px-4 py-2 rounded hover:bg-[#8a4f4e]">View Details</a>
+            </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="./assets/img/final.jpg" alt="Project 4" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-[#a36361] mb-4">Final Portfolio PRJ</h2>
+                <p class="text-gray-700 mb-4">Brief description of the project.</p>
+                <a href="https://github.com/emujints/C4Prog-WT-PROJ" class="text-white bg-[#a36361] px-4 py-2 rounded hover:bg-[#8a4f4e]">View Details</a>
+            </div>
+        </div>
+
+    </section>
+</main>
+<footer class="bg-[#9eaba2] text-white py-6 text-center w-full">
+    <p>© 2024 Emujin's Portfolio | Built with ❤️</p>
+    <div class="flex justify-center gap-4 mt-4">
+        <a href="https://www.linkedin.com" target="_blank" class="hover:text-[#a36361] transition">
+            <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://github.com" target="_blank" class="hover:text-[#a36361] transition">
+            <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="hover:text-[#a36361] transition">
+            <i class="fab fa-twitter fa-lg"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="hover:text-[#a36361] transition">
+            <i class="fab fa-instagram fa-lg"></i>
+        </a>
     </div>
-
-</section>
-
+</footer>
 </body>
 </html>

@@ -6,24 +6,27 @@
     <title>Emujin Tsengelbayar</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/674d161467.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
     <link rel="stylesheet" href="./src/input.css">
 </head>
 <body class="bg-[#eecc8c] text-[#333]">
 
 <header class="bg-[#9eaba2] text-white sticky top-0 shadow-md w-full">
     <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
-        <h1 class="text-2xl font-bold">Emujin's Portfolio</h1>
-        <nav>
-            <ul class="flex gap-6">
-                <li><a href="#" class="hover:text-[#a36361] transition">Home</a></li>
+        <h1 class="text-2xl font-bold hidden md:block">Emujin's Portfolio</h1>
+        <nav class="w-full">
+            <ul class="flex flex-wrap justify-around gap-2">
+                <li><a href="index.html" class="hover:text-[#a36361] transition">Home</a></li>
                 <li><a href="about.html" class="hover:text-[#a36361] transition">About</a></li>
                 <li><a href="resume.html" class="hover:text-[#a36361] transition">Resume</a></li>
-                <li><a href="mywork.html" class="hover:text-[#a36361] transition">Projects</a></li>
+                <li><a href="projects.html" class="hover:text-[#a36361] transition">Projects</a></li>
+                <li><a href="mywork.html" class="hover:text-[#a36361] transition">My work</a></li>
                 <li><a href="contact.html" class="hover:text-[#a36361] transition">Contact</a></li>
             </ul>
         </nav>
     </div>
 </header>
+
 
 <section class="text-center py-20">
     <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-8">
@@ -43,7 +46,6 @@
         </div>
     </div>
 </section>
-
 
 
 <footer class="bg-[#9eaba2] text-white py-6 text-center w-full">
