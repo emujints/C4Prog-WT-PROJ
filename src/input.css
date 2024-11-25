@@ -75,9 +75,14 @@ nav ul li a:hover {
     background-color: lightcoral;
 }
 
-#input{
+#city {
     color: black;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
+
 
 #output {
     background-color: #f0f0f0;

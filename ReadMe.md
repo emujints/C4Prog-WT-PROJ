@@ -1,6 +1,9 @@
 # C4Prog-WT-PROJ
+ 
+***This is my personal portfolio website containing information about me, resume, my works and form that can reach to me.***
 
-## Color palette
+
+#### Color palette
 
 | Name   | RGB           | HEX    |
 |--------|---------------|--------|
