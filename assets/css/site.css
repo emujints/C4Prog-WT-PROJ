@@ -861,6 +861,10 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-start {
   align-items: flex-start;
 }
@@ -879,6 +883,14 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-4 {
@@ -1237,6 +1249,14 @@ nav ul li a:hover {
   background-color: lightcoral;
 }
 
+#city {
+  color: black;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 #output {
   background-color: #f0f0f0;
   padding: 15px;
@@ -1253,19 +1273,6 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768px) {
-  /* Mobile menu styles */
-
-  #mobile-menu {
-    display: none;
-    /* Initially hide the mobile menu */
-  }
-
-  /* When the menu is toggled, show it */
-
-  #mobile-menu.active {
-    display: block;
-    /* Display the menu when toggled */
-  }
 }
 
 .hover\:bg-\[\#8a4f4e\]:hover {
@@ -1301,8 +1308,8 @@ nav ul li a:hover {
 }
 
 @media (min-width: 768px) {
-  .md\:flex {
-    display: flex;
+  .md\:block {
+    display: block;
   }
 
   .md\:h-\[500px\] {
@@ -1313,8 +1320,9 @@ nav ul li a:hover {
     width: 400px;
   }
 
-  .md\:flex-row {
-    flex-direction: row;
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .md\:text-4xl {
@@ -1334,10 +1342,6 @@ nav ul li a:hover {
 
   .lg\:mt-0 {
     margin-top: 0px;
-  }
-
-  .lg\:hidden {
-    display: none;
   }
 
   .lg\:w-1\/2 {
@@ -1366,6 +1370,10 @@ nav ul li a:hover {
 
   .lg\:items-start {
     align-items: flex-start;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
   }
 
   .lg\:text-left {
